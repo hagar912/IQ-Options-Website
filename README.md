@@ -15,9 +15,9 @@ WE ARETHE BEST BINARY OPTIONS BROKER ACCORDING TO THE GLOBAL BANKING & FINANCE R
  * HTML.
  * CSS.
  
- ### Analysis Graphs with Description
+ ### Files For the project
 * [`IQ Web Page`](https://github.com/hagar912/IQ-Options-Website/blob/main/iq.html)
 
-
-### Analysis coding provided here :
 * [`IQ Stylesheet `](https://github.com/hagar912/IQ-Options-Website/blob/main/IQ.css)
+
+* [`IQ Presentation `](https://github.com/hagar912/IQ-Options-Website/blob/main/IQ%20presentation.pdf)
