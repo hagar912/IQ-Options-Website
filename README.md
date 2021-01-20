@@ -1,5 +1,5 @@
 # IQ-Options-Website
-## START TRADINGBINARY OPTIONS
+START TRADINGBINARY OPTIONS
 *Amount to be credited to account in case of successful trade
 ## About The Website
 ### WE ARETHE BEST BINARY OPTIONS BROKER 
