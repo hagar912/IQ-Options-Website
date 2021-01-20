@@ -1,0 +1,817 @@
+.firstdiv
+{
+    position:absolute;
+    top:0;
+    left:0;
+    height:2cm;
+    width: 35.8cm;
+    background-color:rgba(0,0,0,.7);
+}
+.seconddiv{margin:0 0 2.5cm 0;}
+
+/*the big mg*/
+.img1
+{
+   position: absolute;
+   top:0;
+   left:0;
+   opacity:.85;
+}
+
+/*for the logo*/
+
+.img2
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    opacity:.8;
+}
+
+/*for the register button*/
+.button
+{
+    position:absolute;
+    left:32.9cm;
+    top:.3cm;
+    width:2.4cm;
+    height: 1.20cm;
+    font-family: sans-serif,monospace,cursive;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    border:none;
+    background-color:rgb(0, 204, 102);
+    border-radius:4px;
+    box-shadow: 0 4px rgb(0, 153, 77);
+    cursor: pointer;
+}
+.button:hover{background-color: #00b359;}
+
+/*for the start trading and binaryoptions */
+.p1,.p2
+{
+    position: absolute;
+    left:12.7cm; 
+    top:2.5cm;
+    font-family:sans-serif,monospace,cursive;
+    font-size:53px;
+    font-weight:500;
+    text-transform: uppercase;
+    color:white; 
+}
+
+.p2
+{
+    color:#ff751a;
+    position: absolute;
+    left:12.45cm;
+    top:4.2cm;   
+}
+
+/*deal, minimize ,quick deal ,profit*/
+.p3,.p4,.p5,.p6
+{
+    position: absolute;
+    top:7.25cm;
+    left:10.65cm;
+    color:white;
+    font-family: sans-serif,cursive,fantasy;
+    font-weight: 200;
+    font-size: 20px;
+    max-width: 3.60cm;
+    max-height: 1cm;
+}
+.p4{position: absolute;top:6.85cm;left:14.1cm;}
+.p5{position: absolute;top:6.85cm;left:20.1cm;max-width: 1.40cm;}
+.p6{position: absolute;top:7.3cm;left:24.5cm;}
+
+
+/*for maximize the first word "1, 1$ ,1min ,90%" */
+
+.m1,.m2,.m3,.m4
+{
+    font-family: sans-serif,fantasy,cursive;
+    font-size: 33px;
+    font-weight:200;
+    color:#ff751a;
+    
+}
+.m1
+{
+    position: absolute;
+    left:10cm;
+    top:7cm;
+}
+
+.m2
+{
+    position: absolute;
+    left:12.9cm;
+    top:7cm;
+}
+
+.m3
+{
+    position: absolute;
+    left:17.75cm;
+    top:7cm;
+}
+
+.m4
+{
+    position: absolute;
+    left:22.55cm;
+    top:7cm;
+}
+
+/*small paragraph befor registeration"*/
+.small
+{
+    position: absolute;
+    left:13.6cm;
+    top:8.6cm;
+    color:#fff;
+    font-family: sans-serif,fantasy,cursive;
+    font-size: 12px;
+    
+}
+
+/*paragraph : quick register*/
+.register
+{
+    position: absolute;
+    left:16.2cm;
+    top:9.7cm;
+    color:#fff;
+    font-family: sans-serif,fantasy,cursive;
+    font-size: 18px;
+}
+
+/* email and password input"*/
+input[type=email], input[type=password]
+{
+    position: absolute;
+    top:10.5cm;
+    left:10.65cm;
+    width: 7.4cm;
+    height:1.40cm;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline;
+    font-family: sans-serif,serif,cursive;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+input[type=password]
+{
+    position: absolute;
+    top:10.5cm;
+    left:18cm;
+    display: inline;
+}
+
+/*button: try now*/
+#b2,#b6
+{
+    position: absolute;
+    top:12.5cm;
+    left:11.85cm;
+    width: 12.20cm;
+    height: 1.70cm;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-family:monospace,sans-serif,cursive;
+    font-size: 18px;
+    font-weight:700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#b2,#b6:hover {
+    background-color:#3e8e41;
+    border-radius:4px;
+    box-shadow: 0 2px #00802b;
+}
+
+
+/*Create an account with:*/
+.small2
+{
+    position: absolute;
+    top:14.7cm;
+    left:16.2cm;
+    color:#fff;
+    font-family: sans-serif,fantasy,cursive;
+    font-size: 12px;
+}
+
+
+/*for the button*/
+.face,.google
+{
+    position: absolute;
+    left:15cm;
+    top:15.3cm;
+    width:2.50cm;
+    height: .7cm;
+    padding: 0;
+    background-color: #3b5998 ;
+    border: none;
+    font-family: sans-serif,monospace,cursive;
+    font-size: 12px;
+    font-weight: 200;
+    border-radius:2px;
+    cursor: pointer;
+}
+.google
+{
+    position: absolute;
+    left:17.8cm;
+    top:15.3cm;
+    background-color:#dd4b39;
+    width:2.80cm;
+}
+
+
+/*for facebook and google+ icons   ////logo////*/
+#ficon,#gicon
+{
+    color:#fff;
+    position: absolute;
+    left:.2cm;
+    top:.15cm;
+    font-size:16px;
+}
+
+/*word of facebook and google+ */
+.f,.g
+{
+    position: absolute;
+    left:.9cm;
+    top:.18cm;
+    color: #fff;
+    font-weight: 200;
+}
+
+/*for the finally in the pic"*/
+
+.finally2,.finally3
+{
+    position: absolute;
+    top:16.1cm;
+    left:15cm;
+    color:#fff;
+    font-family: sans-serif,fantasy,cursive;
+    font-size: 12px;
+}
+.term,.term1{text-decoration: underline;}
+
+
+/* ////////////////////////////////////////////////      second div after pic     //////////////*/
+
+/*how our platform works*/
+.sp1
+{
+    position:absolute;
+    top:19.1cm;
+    left:8.60cm;
+    color:#ff751a;
+    font-family:roboto, sans-serif,cursive,fantasy;
+    font-weight:500;
+    font-size:48px;
+    text-transform: uppercase;
+    box-decoration-break: slice;
+}
+
+
+/*the next paragraph*/
+.sp2,.sp3
+{
+    position:absolute;
+    top:22.7cm;
+    left:9.85cm;
+    max-width: 7.20cm;
+    max-height: 1.60cm;
+    font-family:roboto,sans-serif,arial,fantasy;
+    font-size: 15.5px;
+    font-weight: lighter;
+    line-height: 20px;
+
+}
+.sp3
+{
+    max-width: 7.80cm;
+    left:20.9cm;
+    
+}
+
+/* for .1,.2 */
+.mm1,.mm2
+{
+    font-family: sans-serif,fantasy,cursive;
+    font-size:69px;
+    font-weight:200;
+    color:#ff751a;
+    position: absolute;
+    top:22.2cm;
+    left:7.9cm;
+    max-height: 1.50cm;
+}
+.mm2{left:18.9cm;}
+.green{color:green;}
+.red{color: red;}
+
+/*for the phone image */
+.img3
+{
+    position: absolute;
+    top:25cm;
+}
+
+/*for the button try now*/
+#b3,#b4
+{
+    background-color:#4CAF50;
+    color: #fff;
+    font-family: sans-serif,cursive;
+    font-weight: 400;
+    font-size:25px;
+    border: none;
+    box-shadow: 0 4px #367c39;
+    width: 1.5cm;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    top:43cm;
+    left:15cm;
+    width:4.5cm;
+    height:1.8cm;
+    cursor: pointer;
+}
+#b3,#b4:hover{background-color:#3e8e41;}
+
+/*///////////////////////////////////////////////     third div         ////////////////////////////////////////////////////////////////*/
+
+.thirddiv
+{
+    position: absolute;
+    left:0px;
+    top:47cm;
+    padding: 0;
+    margin: 0;
+    border: none;
+    width:1355px;
+    height:1100px;
+    background-color:#1f1f1f;
+}
+
+.t1,.t2
+{
+    position:absolute;
+    top:1.5cm;
+    left:3.45cm;
+    font-family: sans-serif,cursive,fantasy;
+    font-size:48px;
+    color:#fff;
+    text-transform: uppercase;
+}
+.t2
+{
+    position:absolute;
+    top:1.5cm;
+    left:8.75cm;
+    color:#ff751a;
+}
+
+/*the small par.*/
+.t3
+{
+    position: absolute;
+    top:4cm;
+    left:13.25cm;
+    color:#fff;
+    font-family:sans-serif,cursive,fantasy;
+    text-transform: uppercase;
+    font-size:12px;
+}
+
+/* for the image*/
+.img4
+{
+    position: absolute;
+    top:6.9cm;
+    left:2.4cm;
+    width: 15.5cm;
+    height: 9.2cm;
+}
+
+/*for done icon */
+#i1,#i2,#i2,#i3,#i4,#i5,#i6
+{
+    position: absolute;
+    top: 7.65cm;
+    left:19cm;
+    font-size:26px;
+    /*color:#ff9900;*/
+    color:#ff9800;
+}
+#i2{top:8.9cm;}
+#i3{top:10.15cm;}
+#i4{top:11.4cm;}
+#i5{top:12.65cm;}
+#i6{top:13.9cm;}
+
+/*words besides done icon*/
+.ni1,.ni2,.ni3,.ni4,.ni5,.ni6
+{
+    position: absolute;
+    top:7.5cm;
+    left:20.4cm;
+    color: #fff;
+    font-family:robot,sans-serif,monospace,fantasy;
+    font-weight: 200;
+    font-size: 22px;   
+}
+.ni2{top:8.75cm;}
+.ni3{top:10cm;}
+.ni4{top:11.25cm;}
+.ni5{top:12.5cm;}
+.ni6{top:13.75cm;}
+
+/*big and small words*/
+.l1,.l2,.l3,.l4
+{
+    position: absolute;
+    top:18cm;
+    left:2.7cm;
+    font-family:roboto,sans-serif,fantasy,cursive;
+    font-size: 50px;
+    font-weight:100;
+    color:#ff751a;
+    max-height: 5.60cm;
+    max-width:1.80cm;
+}
+.l2{left:10.8cm;}
+.l3{left:18.3cm;max-width:3.40cm;}
+.l4{left:25.9cm;}
+
+.t4,.t5,.t6,.t7
+{
+    position: absolute;
+    top :18.2cm;
+    left:6.25cm;
+    font-family: roboto,sans-serif;
+    font-size:23px;
+    color: #fff;
+    max-width: 1.40cm;
+    line-height: 27px;
+}
+
+.t5{left:12.6cm;}
+.t6{left:21.85cm;max-width: 3cm;}
+.t7{left:28.5cm;}
+
+.mini
+{
+    position: absolute;
+    top:20.5cm;
+    left:13.5cm;
+    color:#fff;
+    font-family: roboto,sans-serif,monospace;
+    font-size: 12px;
+}
+
+#b4
+{
+    position: absolute;
+    top:22cm;
+    left:15.5cm;
+}
+
+.field
+{
+    position: absolute;
+    top:25cm;
+    left:10.6cm;
+    width: 16cm;
+    border: 2px solid #ccc;
+  /*  height: 3cm;  */
+}
+
+.field1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: roboto,sans-serif,monospace;
+    font-weight: 400;
+    border: 2px solid #ccc;
+
+}
+.field2
+{
+    text-align: left;
+    max-width: 16cm;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.fourthdiv
+{
+    position: absolute;
+    left:0px;
+    top:76.5cm;
+    padding: 0;
+    margin: 0;
+    border: none;
+    width:1355px;
+    height:11cm;
+    
+}
+
+.ffd,.span1
+{
+    position: absolute;
+    top:2.60cm;
+    left:11.3cm;
+    max-width: 15.8cm;
+    font-family: inherit;
+    font-size: 48.5px;
+    font-weight: 400;
+    color:rgba(255, 119, 0, 1);
+
+
+}
+.span1
+{
+    position: absolute;
+    left: 2.45cm;
+    top:1.8cm;
+    color:#1f1f1f;
+
+}
+
+/*visa imag*/
+.pic0,.pic1,.pic2,.pic4,.pic5,.pic6
+{
+    position: absolute;
+    left:2.5cm;
+    top:7.5cm;
+    width: 4cm;
+    height: 4cm;
+}
+/*master card image*/
+.pic1
+{
+    left:8.5cm;
+    top:8.45cm;
+    width: 3.5cm;
+    height: 2.07cm;
+}
+
+/*webmoney image*/
+.pic2
+{
+    left:14.35cm;
+    top:8.55cm;
+    width: 3.5cm;
+    height: 1.9cm;
+}
+
+/*skrill image*/
+.pic4
+{
+    left: 20cm;
+    top:8.5cm;
+    width: 3.35cm;
+    height: 1.93cm;
+    border: 2px solid #732673;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/*neteller image*/
+.pic5
+{
+    left:25.3cm;
+    top:8.5cm;
+    width: 3.3cm;
+    height: 1.923cm;
+    border: 2px solid #33cc00;
+    border-radius: 4px;
+    padding: 5px;
+    padding-bottom: 1px;
+}
+
+/*wire image*/
+.pic6
+{
+    left:30.3cm;
+    top:7.98cm;
+    width: 3.5cm;
+    height: 2.98cm;
+}
+
+/* ///////////////////////////////   for rivews div      /////////////////////*/
+.fivthdiv
+{
+    position: absolute;
+    left:0px;
+    top:89.5cm;
+    background-color:#ecf2f7;
+    padding:0;
+    margin:0;
+    border:none;
+    width:1355px;
+    height:26cm;
+}
+
+/*big paragraph*/
+.r1,.r2
+{
+    position: absolute;
+    top:1.9cm;
+    left:8cm;
+    color:#333;
+    font-size:48px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*small paragraph*/
+.r2
+{
+    top:3.8cm;
+    left:11.9cm;
+    font-size: 15px;
+    text-transform: none;
+}
+
+/*image for reviews*/
+.pic7
+{
+    position: absolute;
+    top:6.4cm;
+}
+
+/* ///////////////////////////////       six div      //////////////////////////////*/
+.sixdiv
+{
+    position: absolute;
+    left:0px;
+    top:115.57cm;
+    padding:0;
+    margin:0;
+    border:none;
+    width:1355px;
+    height:28.5cm;
+    background-image: url('trad0.jpg') ;
+    
+}
+
+
+
+.trad1,.trad2
+{
+    position: absolute;
+    top:2.8cm;
+    left:12.7cm;
+    font-family:inherit;
+    font-size:46px;
+    font-weight: 400;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.trad2
+{
+    position: absolute;
+    top:4.42cm;
+    left:12.35cm;
+    color:rgba(255, 119, 0, 1);
+}
+
+.trad3,.trad4
+{
+    position: absolute;
+    top:9.1cm;
+    left:10.2cm;
+    color:#fff;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.trad4{left:20.3cm;}
+
+/*input type*/
+#email1,#pass1
+{
+    position: absolute;
+    top:9.85cm;
+    left:9.65cm;
+    width: 7.7cm;
+    height:1.3cm;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    font-family: sans-serif,serif,cursive;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#pass1
+{
+    position: absolute;
+    left:9.65cm;
+    top:11.15cm;
+    display: block;
+    height: 1.3cm;
+}
+
+#b6
+{
+    position: absolute;
+    top:14cm;
+    left:12cm;
+    box-shadow: 0 4px #367c39;
+}
+
+
+
+/*for the button*/
+.face1,.google1
+{
+    position: absolute;
+    left:19.8cm;
+    top:10cm;
+    width:7cm;
+    height: 1.3cm;
+    padding: 0;
+    background-color: #3b5998 ;
+    border:none;
+    border-bottom: 2px;
+    font-family: sans-serif,monospace,cursive;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius:1.5px;
+    cursor: pointer;
+}
+.google1
+{
+    position: absolute;
+    left:19.8cm;
+    top:11.306cm;
+    background-color:#dd4b39;
+    width:7cm;
+    height: 1.33cm;
+}
+
+
+/*for facebook and google+ icons   ////logo////*/
+#ficon1,#gicon1
+{
+    color:#fff;
+    position: absolute;
+    left:.45cm;
+    top:.45cm;
+    font-size:20px;
+}
+
+/*word of facebook and google+ */
+.f1,.g1
+{
+    position: absolute;
+    left:2.7cm;
+    top:.3cm;
+    color: #fff;
+    font-weight: 200;
+}
+
+.finally3
+{
+    position: absolute;
+    top:12.8cm;
+    left:20.35cm;
+    color:#fff;
+    font-family: sans-serif,fantasy,cursive;
+    font-size: 13px;
+}
+
+.pic11
+{
+    position: absolute;
+    top:18.85cm;
+}
+
+
